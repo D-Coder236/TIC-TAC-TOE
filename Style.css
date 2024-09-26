@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#full{
+    width: 900px;
+    height: 900px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-color: #0F7173;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 100px;;
+    
+}
+#header{
+    font-family:'Courier New', Courier, monospace;
+    color: #272932;
+    text-align: center;
+    font-size: 40px;
+}
+#container{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    overflow-wrap: break-word;
+    text-align: center; /* Center the text within the container */  
+}
+#game{
+    width: 600px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+}
+.box{
+    width: 180px;
+    height: 180px;
+    border:none;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #E7ECEF;
+    color: #f05d5e;
+    font-size: 100px;
+}
+.box:hover{
+    background-color: #D8A47F;
+    transition-duration: 0.3s;
+}
+#result{
+    margin-top: 20px;
+    align-items: center;
+}
+.reset{
+    font-size: 40px;
+    width: 200px;
+    height: 50px;
+    border:none;
+    border-radius: 20px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #272932;
+    color: #E7ECEF;
+}
